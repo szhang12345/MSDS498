@@ -1,7 +1,7 @@
 body {
   overflow-x: hidden;
   font-family: 'Arial', sans-serif;
-  color: skyblue;
+  color: #7289da;
 }
 
 .form-group {
@@ -48,7 +48,7 @@ h5 {
 }
 
 h6 {
-  color: Gray;
+  color: black;
   margin-left: 20px;
  
 
