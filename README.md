@@ -15,7 +15,11 @@ Setup
 Reference:
 
 https://github.com/misha345a/Docker_Sentiment_Predictor
+
 https://github.com/flairNLP/flair
+
 https://github.com/Prajwal10031999/Sentiment-Analysis-ML-Flask-App
+
 https://medium.com/google-developer-experts/building-a-flask-app-using-docker-and-deploy-to-google-cloud-run-8f311ad36040
+
 https://medium.com/google-cloud/deploy-python-application-to-google-cloud-with-docker-and-kubernetes-db33ee9fbed3
