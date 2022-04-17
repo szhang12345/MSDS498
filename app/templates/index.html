@@ -4,11 +4,11 @@
     <!-- Meta Tags -->
     <meta charset="utf-8">
     <meta name="viewport" content="width=device-width, initial-scale=1, viewport-fit=cover">
-    <meta name="author" content="Michael Markin">
+    <meta name="author" content="Sy Zhang">
     <meta http-equiv="X-UA-Compatible" content="ie=edge">
     <title>Flask Sentiment Predictor</title>
     <!-- Flavicon -->
-    <link rel="shortcut icon" href="{{ url_for('static', filename='favicon.png') }}">
+    <link rel="shortcut icon" href="{{ url_for('static', filename='icon.png') }}">
     <!-- JQuery -->
     <script src="http://ajax.googleapis.com/ajax/libs/jquery/3.1.0/jquery.min.js"></script>
     <!-- Bootstrap 5 CSS -->
@@ -25,12 +25,12 @@
   </head>
   <body>
    <div class="container">
-      <h1 id="headingText">Sentiment Predictor</h1>
+      <h1 id="headingText">Sentiment Analysis</h1>
 
       <form method="POST">
         <div class="form-group">
           <div>
-            <label for="textArea">Enter your text here:</label>
+            <label for="textArea">Text Input for Analysis:</label>
             <textarea name="comment" class="form-control" id="textArea" rows="4" onkeyup="countChars(this);" required></textarea>
             <input type="submit" class="btn btn-primary" id="submitBtn" name="submitBtn">
             <span id='charNum'>500 characters remaining</span>
@@ -43,7 +43,7 @@
     </div>
 
     <div>
-      <span>Output:</span>
+      <span>Sentiment Result:</span>
       <div style="border:1px solid black;" id="outputBox">
         <p id="outputText"></p>
       </div>
