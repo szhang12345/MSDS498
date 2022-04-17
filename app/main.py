@@ -1,6 +1,6 @@
 # library imports
 from flask import Flask, render_template, request, jsonify
-from main import *
+from sentiment_analysis import *
 import os
 
 # define the Flask constructor
