@@ -51,5 +51,5 @@ def sentiment_analysis(user_input):
     # get the confidence score
     confidence = text.to_dict()['labels'][0]['confidence']
     confidence = str(round(confidence*100))+'%'
-
+    
     return f"{sentiment} | Confidence Level: {confidence}"
