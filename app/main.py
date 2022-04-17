@@ -18,7 +18,7 @@ def process():
 
     # handle an invalid user input
     if check_input(text) == False:
-        return jsonify({'result': '', 'error': 'Bad user input. Try again.'})
+        return jsonify({'result': '', 'error': 'Invalid Input. Please try again.'})
 
     # run the classification model
     processed_text = sentiment_analysis(text)
