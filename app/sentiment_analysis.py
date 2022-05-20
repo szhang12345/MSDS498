@@ -11,7 +11,10 @@ gibberish_detector_path = Path('./pretrained_models/gibberish-detector.model')
 Detector = detector.create_from_model(gibberish_detector_path)
 
 # load the sentiment classifier model
-classifier = TextClassifier.load('en-sentiment')
+#classifier = TextClassifier.load('en-sentiment')
+# load the sentiment classifier model
+flair_model_path = Path('./pretrained_models/flair-sentiment-en-mix-distillbert_4.pt')
+classifier = TextClassifier.load(flair_model_path)
 
 def check_input(text):
     """
