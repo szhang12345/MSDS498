@@ -1,5 +1,5 @@
-#FROM python:3.7.12-slim-buster
-FROM python:3.8
+FROM python:3.7.12-slim-buster
+#FROM python:3.8
 # Define a directory for the application
 WORKDIR /flask-app
 
